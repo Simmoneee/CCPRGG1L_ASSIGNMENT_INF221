@@ -96,24 +96,20 @@ public class App {
     }
 }
 
-System.out.println("");
- System.out.println("5. SUM");
-int i, j, row_sum = 0, column_sum;
- int[][] SumOfRowCols_arr = {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}, {1, 1, 1}}; for(i = 0; i < SumOfRowCols_arr.length; i++)
- {
-            column_sum = 0;
-        for(j = 0; j < SumOfRowCols_arr[0].length; j++) {
-    
-            row_sum = row_sum + SumOfRowCols_arr[i][j]; }
+            System.out.println("");
+            System.out.println("5. SUM");
+         
+               int i, j, row_sum = 0, column_sum;
+               int[][] SumOfRowCols_arr = {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}, {1, 1, 1}}; for(i = 0; i < SumOfRowCols_arr.length; i++){
+                        column_sum = 0;
+                    for(j = 0; j < SumOfRowCols_arr[0].length; j++) {
+                
+                        row_sum = row_sum + SumOfRowCols_arr[i][j]; }
+                    
+                    }
 
- }
-
- System.out.println ("Sum of " + row_sum);
+            System.out.println ("Sum of " + row_sum);
                 
                 }
             }
-        
-
-           
-                             
         
