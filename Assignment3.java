@@ -20,10 +20,7 @@ public class App {
 
             else if (rows  % 2 !=0)
              System.out.print (arrayName[rows][columns] );
-
-           
-   
-        
+             
         }  
         }
         
@@ -41,9 +38,7 @@ public class App {
 
             else if (rows  % 2 ==0)
              System.out.print (arrayName[rows][columns] );
-    
-    
-    
+       
     }
 }
       
@@ -66,8 +61,7 @@ public class App {
 
              if (rows == 0 || rows == 3)
              System.out.print (arrayName[rows][columns] );
-            
-            
+                      
             }
 }
             // Pattern 4
@@ -90,9 +84,6 @@ public class App {
                 if (rows == 1|| rows == 3)
                 System.out.print (arrayName[rows][columns] );
                 
-
-
-
     }
 }
 
